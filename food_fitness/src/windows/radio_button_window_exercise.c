@@ -100,7 +100,6 @@ static void window_load(Window *window) {
       .draw_row = (MenuLayerDrawRowCallback)draw_row_callback,
       .get_cell_height = (MenuLayerGetCellHeightCallback)get_cell_height_callback,
       .select_click = (MenuLayerSelectCallback)select_callback,
-      .select_submit = (
   });
   layer_add_child(window_layer, menu_layer_get_layer(s_menu_layer));
 }
