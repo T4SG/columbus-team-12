@@ -81,7 +81,7 @@ static int16_t get_cell_height_callback(struct MenuLayer *menu_layer, MenuIndex 
 static void select_callback(struct MenuLayer *menu_layer, MenuIndex *cell_index, void *callback_context) {
   if(cell_index->row == RADIO_BUTTON_WINDOW_NUM_ROWS) {
     // Do something with user choice
-      sendMessage(s_CURRENT_SELECTION);
+      sendMessage(s_current_selection);
   } else {
     // Change selection
     s_current_selection = cell_index->row;
