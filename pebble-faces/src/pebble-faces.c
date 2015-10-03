@@ -14,6 +14,9 @@ static char *images[] = {
     "https://www.filepicker.io/api/file/EmNg6m2QqeGmSMWkRR4t",
     "https://www.filepicker.io/api/file/jSY7kHRdSsOs42KBA71f",
     "https://www.filepicker.io/api/file/h8BVY9xXR2vVg5rf0NDs",
+    "https://www.filepicker.io/api/file/IFCSiTZxTJyHmMUnlRdI",
+    "https://www.filepicker.io/api/file/gZNkcKkBTSDhiWI8MvG4",
+    "https://www.filepicker.io/api/file/kOPRTuIeQG2p5PG2cjax"
 };
 
 static unsigned long image = 0;
