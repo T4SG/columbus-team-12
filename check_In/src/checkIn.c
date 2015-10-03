@@ -61,6 +61,8 @@ static void init() {
 }
 
 static void deinit() {
+    
+    
   // Destroy main Window
   window_destroy(s_main_window);
 }
