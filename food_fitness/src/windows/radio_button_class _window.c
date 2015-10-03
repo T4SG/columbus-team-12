@@ -15,12 +15,12 @@ static uint16_t get_num_rows_callback(MenuLayer *menu_layer, uint16_t section_in
   return RADIO_BUTTON_WINDOW_NUM_ROWS + 1;
 }
 
-static void sendMessage()
+static void sendMessage(int x)
 {
     app_message_open(APP_MESSAGE_INBOX_SIZE_MINIMUM,APP_MESSAGE_OUTBOX_SIZE_MINIMUM);
     app_message_outbox_begin(&iterator);
     int key = 78;
-    int value = 2113;
+    int value = x;
     dict_write_int(iterator, key, &value, sizeof(int), true);
     const uint32_t final_size = dict_write_end(iterator);
     app_message_outbox_send();
@@ -80,7 +80,7 @@ static int16_t get_cell_height_callback(struct MenuLayer *menu_layer, MenuIndex 
 static void select_callback(struct MenuLayer *menu_layer, MenuIndex *cell_index, void *callback_context) {
   if(cell_index->row == RADIO_BUTTON_WINDOW_NUM_ROWS) {
     // Do something with user choice
-      sendMessage();
+      sendMessage(s_current_selection);
   } else {
     // Change selection
     s_current_selection = cell_index->row;
