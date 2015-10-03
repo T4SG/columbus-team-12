@@ -1,18 +1,19 @@
 {
-  "uuid": "3c79082d-d3ed-4ff8-ad30-9559dd6034f8",
-  "shortName": "food_fitness",
-  "longName": "food_fitness",
-  "companyName": "MakeAwesomeHappen",
-  "versionLabel": "1.0",
-  "sdkVersion": "3",
-  "targetPlatforms": ["aplite", "basalt"],
-  "watchapp": {
-    "watchface": false
-  },
-  "appKeys": {
-    "dummy": 0
-  },
-  "resources": {
-    "media": []
-  }
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "afranc15@asu.edu",
+    "longName": "Pong",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Pong",
+    "uuid": "524f3d9d-3fdc-43ef-85e3-e1b4adc6ab51",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
 }
