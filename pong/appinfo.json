@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "afranc15@asu.edu",
+    "longName": "Pong",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Pong",
+    "uuid": "524f3d9d-3fdc-43ef-85e3-e1b4adc6ab51",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
