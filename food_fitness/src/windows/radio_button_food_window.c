@@ -6,12 +6,26 @@
 
 static Window *s_main_window;
 static MenuLayer *s_menu_layer;
+DictionaryIterator *iterator;
+
 
 static int s_current_selection = 0;
 
 static uint16_t get_num_rows_callback(MenuLayer *menu_layer, uint16_t section_index, void *context) {
   return RADIO_BUTTON_WINDOW_NUM_ROWS + 1;
 }
+
+static void sendMessage()
+{
+    app_message_open(APP_MESSAGE_INBOX_SIZE_MINIMUM,APP_MESSAGE_OUTBOX_SIZE_MINIMUM);
+    app_message_outbox_begin(&iterator);
+    int key = 78;
+    int value = 2113;
+    dict_write_int(iterator, key, &value, sizeof(int), true);
+    const uint32_t final_size = dict_write_end(iterator);
+    app_message_outbox_send();
+}
+
 
 static void draw_row_callback(GContext *ctx, Layer *cell_layer, MenuIndex *cell_index, void *context) {
   if(cell_index->row == RADIO_BUTTON_WINDOW_NUM_ROWS) {
@@ -67,7 +81,7 @@ static int16_t get_cell_height_callback(struct MenuLayer *menu_layer, MenuIndex 
 static void select_callback(struct MenuLayer *menu_layer, MenuIndex *cell_index, void *callback_context) {
   if(cell_index->row == RADIO_BUTTON_WINDOW_NUM_ROWS) {
     // Do something with user choice
-    APP_LOG(APP_LOG_LEVEL_INFO, "Submitted choice %d", s_current_selection);
+      sendMessage();
   } else {
     // Change selection
     s_current_selection = cell_index->row;
