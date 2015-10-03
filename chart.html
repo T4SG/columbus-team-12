@@ -371,23 +371,21 @@
 			<!-- start: Content -->
 			<div id="content" class="span10">
 			
-			
+						
 			<ul class="breadcrumb">
 				<li>
 					<i class="icon-home"></i>
-					<a href="index.html">Home</a>
-					<i class="icon-angle-right"></i> 
+					<a href="index.html">Home</a> 
+					<i class="icon-angle-right"></i>
 				</li>
-				<li>
-					<i class="icon-edit"></i>
-					<a href="#">Forms</a>
-				</li>
+				<li><a href="#">Charts</a></li>
 			</ul>
-			
-			<div class="row-fluid sortable">
-				<div class="box span12">
-					<div class="box-header" data-original-title>
-						<h2><i class="halflings-icon edit"></i><span class="break"></span>Form Elements</h2>
+
+			<div class="row-fluid">
+				
+				<div class="box">
+					<div class="box-header">
+						<h2><i class="halflings-icon list-alt"></i><span class="break"></span>Chart with points</h2>
 						<div class="box-icon">
 							<a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
 							<a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
@@ -395,45 +393,124 @@
 						</div>
 					</div>
 					<div class="box-content">
-						<form class="form-horizontal">
-						  <fieldset>
-							<div class="control-group">
-							  <label class="control-label" for="typeahead">Auto complete </label>
-							  <div class="controls">
-								<input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
-								<p class="help-block">Start typing to activate auto complete!</p>
-							  </div>
-							</div>
-							<div class="control-group">
-							  <label class="control-label" for="date01">Date input</label>
-							  <div class="controls">
-								<input type="text" class="input-xlarge datepicker" id="date01" value="02/16/12">
-							  </div>
-							</div>
-
-							<div class="control-group">
-							  <label class="control-label" for="fileInput">File input</label>
-							  <div class="controls">
-								<input class="input-file uniform_on" id="fileInput" type="file">
-							  </div>
-							</div>          
-							<div class="control-group hidden-phone">
-							  <label class="control-label" for="textarea2">Textarea WYSIWYG</label>
-							  <div class="controls">
-								<textarea class="cleditor" id="textarea2" rows="3"></textarea>
-							  </div>
-							</div>
-							<div class="form-actions">
-							  <button type="submit" class="btn btn-primary">Save changes</button>
-							  <button type="reset" class="btn">Cancel</button>
-							</div>
-						  </fieldset>
-						</form>   
-
+						<div id="sincos"  class="center" style="height:300px;" ></div>
+						<p id="hoverdata">Mouse position at (<span id="x">0</span>, <span id="y">0</span>). <span id="clickdata"></span></p>
 					</div>
-				</div><!--/span-->
+				</div>
+				
+				<div class="box">
+					<div class="box-header">
+						<h2><i class="halflings-icon list-alt"></i><span class="break"></span>Flot</h2>
+						<div class="box-icon">
+							<a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
+							<a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
+							<a href="#" class="btn-close"><i class="halflings-icon remove"></i></a>
+						</div>
+					</div>
+					<div class="box-content">
+						<div id="flotchart" class="center" style="height:300px"></div>
+					</div>
+				</div>
+				
+				<div class="box">
+					<div class="box-header">
+						<h2><i class="halflings-icon list-alt"></i><span class="break"></span>Stack Example</h2>
+						<div class="box-icon">
+							<a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
+							<a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
+							<a href="#" class="btn-close"><i class="halflings-icon remove"></i></a>
+						</div>
+					</div>
+					<div class="box-content">
+						 <div id="stackchart" class="center" style="height:300px;"></div>
+
+						<p class="stackControls center">
+							<input class="btn" type="button" value="With stacking">
+							<input class="btn" type="button" value="Without stacking">
+						</p>
+
+						<p class="graphControls center">
+							<input class="btn-primary" type="button" value="Bars">
+							<input class="btn-primary" type="button" value="Lines">
+							<input class="btn-primary" type="button" value="Lines with steps">
+						</p>
+					</div>
+				</div>
 
 			</div><!--/row-->
+			
+			<div class="row-fluid sortable">
+				<div class="box span6">
+					<div class="box-header">
+						<h2><i class="halflings-icon list-alt"></i><span class="break"></span>Pie</h2>
+						<div class="box-icon">
+							<a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
+							<a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
+							<a href="#" class="btn-close"><i class="halflings-icon remove"></i></a>
+						</div>
+					</div>
+					<div class="box-content">
+							<div id="piechart" style="height:300px"></div>
+					</div>
+				</div>
+			
+				<div class="box span6">
+					<div class="box-header" data-original-title>
+						<h2><i class="halflings-icon list-alt"></i><span class="break"></span>Donut</h2>
+						<div class="box-icon">
+							<a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
+							<a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
+							<a href="#" class="btn-close"><i class="halflings-icon remove"></i></a>
+						</div>
+					</div>
+					<div class="box-content">
+						 <div id="donutchart" style="height: 300px;"></div>
+					</div>
+				</div>
+			
+			</div><!--/row-->
+		
+			<hr>
+		
+			<div class="row-fluid sortable">
+				<div class="box span12">
+					<div class="box-header">
+						<h2><i class="halflings-icon list-alt"></i><span class="break"></span>Realtime</h2>
+						<div class="box-icon">
+							<a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
+							<a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
+							<a href="#" class="btn-close"><i class="halflings-icon remove"></i></a>
+						</div>
+					</div>
+					<div class="box-content">
+						 <div id="realtimechart" style="height:190px;"></div>
+						 <p>You can update a chart periodically to get a real-time effect by using a timer to insert the new data in the plot and redraw it.</p>
+						 <p>Time between updates: <input id="updateInterval" type="text" value="" style="text-align: right; width:5em"> milliseconds</p>
+					</div>
+				</div>
+			</div><!--/row-->
+			
+			<div class="row-fluid">
+				
+				<div class="widget span6" onTablet="span6" onDesktop="span6">
+					<h2><span class="glyphicons facebook"><i></i></span>Facebook Fans</h2>
+					<hr>
+					<div class="content">
+						<div id="facebookChart" style="height:300px" ></div>
+					</div>
+				</div><!--/span-->
+				
+				<div class="widget span6" onTablet="span6" onDesktop="span6">
+					<h2><span class="glyphicons twitter"><i></i></span>Twitter Followers</h2>
+					<hr>
+					<div class="content">
+						<div id="twitterChart" style="height:300px" ></div>
+					</div>
+				</div><!--/span-->
+			
+			</div>
+		
+		
 
 	</div><!--/.fluid-container-->
 	
