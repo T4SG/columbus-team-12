@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEAB05221BBFA1E50014C74D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAB05211BBFA1E50014C74D /* main.m */; };
+		EEAB05251BBFA1E50014C74D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAB05241BBFA1E50014C74D /* AppDelegate.m */; };
+		EEAB05281BBFA1E50014C74D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAB05271BBFA1E50014C74D /* ViewController.m */; };
+		EEAB052B1BBFA1E50014C74D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAB05291BBFA1E50014C74D /* Main.storyboard */; };
+		EEAB052D1BBFA1E50014C74D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAB052C1BBFA1E50014C74D /* Images.xcassets */; };
+		EEAB05301BBFA1E50014C74D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAB052E1BBFA1E50014C74D /* LaunchScreen.xib */; };
+		EEAB053C1BBFA1E50014C74D /* PebbleDataTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAB053B1BBFA1E50014C74D /* PebbleDataTransferTests.m */; };
+		EEAB05461BBFA4220014C74D /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAB05451BBFA4220014C74D /* PebbleKit.framework */; };
+		EEAB05481BBFA42F0014C74D /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAB05471BBFA42F0014C74D /* PebbleVendor.framework */; };
+		EEAB054A1BBFA6D00014C74D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAB05491BBFA6D00014C74D /* MessageUI.framework */; };
+		EEAB054C1BBFA7030014C74D /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAB054B1BBFA7030014C74D /* ExternalAccessory.framework */; };
+		EEAB054E1BBFA71D0014C74D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAB054D1BBFA71D0014C74D /* libz.dylib */; };
+		EEAB05501BBFA7300014C74D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAB054F1BBFA7300014C74D /* CoreBluetooth.framework */; };
+		EEAB05521BBFA7380014C74D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAB05511BBFA7380014C74D /* CoreMotion.framework */; };
+		EEAB05541BBFA7420014C74D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAB05531BBFA7420014C74D /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEAB05361BBFA1E50014C74D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEAB05141BBFA1E50014C74D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEAB051B1BBFA1E50014C74D;
+			remoteInfo = PebbleDataTransfer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEAB051C1BBFA1E50014C74D /* PebbleDataTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebbleDataTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAB05201BBFA1E50014C74D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEAB05211BBFA1E50014C74D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEAB05231BBFA1E50014C74D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEAB05241BBFA1E50014C74D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEAB05261BBFA1E50014C74D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEAB05271BBFA1E50014C74D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEAB052A1BBFA1E50014C74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEAB052C1BBFA1E50014C74D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEAB052F1BBFA1E50014C74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EEAB05351BBFA1E50014C74D /* PebbleDataTransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebbleDataTransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAB053A1BBFA1E50014C74D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEAB053B1BBFA1E50014C74D /* PebbleDataTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleDataTransferTests.m; sourceTree = "<group>"; };
+		EEAB05451BBFA4220014C74D /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = "../../Downloads/pebble-ios-sdk-master/PebbleKit.framework"; sourceTree = "<group>"; };
+		EEAB05471BBFA42F0014C74D /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = "../../Downloads/pebble-ios-sdk-master/PebbleVendor.framework"; sourceTree = "<group>"; };
+		EEAB05491BBFA6D00014C74D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EEAB054B1BBFA7030014C74D /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		EEAB054D1BBFA71D0014C74D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EEAB054F1BBFA7300014C74D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		EEAB05511BBFA7380014C74D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EEAB05531BBFA7420014C74D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEAB05191BBFA1E50014C74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAB05541BBFA7420014C74D /* CFNetwork.framework in Frameworks */,
+				EEAB05521BBFA7380014C74D /* CoreMotion.framework in Frameworks */,
+				EEAB05501BBFA7300014C74D /* CoreBluetooth.framework in Frameworks */,
+				EEAB054E1BBFA71D0014C74D /* libz.dylib in Frameworks */,
+				EEAB054C1BBFA7030014C74D /* ExternalAccessory.framework in Frameworks */,
+				EEAB054A1BBFA6D00014C74D /* MessageUI.framework in Frameworks */,
+				EEAB05481BBFA42F0014C74D /* PebbleVendor.framework in Frameworks */,
+				EEAB05461BBFA4220014C74D /* PebbleKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAB05321BBFA1E50014C74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEAB05131BBFA1E50014C74D = {
+			isa = PBXGroup;
+			children = (
+				EEAB05531BBFA7420014C74D /* CFNetwork.framework */,
+				EEAB05511BBFA7380014C74D /* CoreMotion.framework */,
+				EEAB054F1BBFA7300014C74D /* CoreBluetooth.framework */,
+				EEAB054D1BBFA71D0014C74D /* libz.dylib */,
+				EEAB054B1BBFA7030014C74D /* ExternalAccessory.framework */,
+				EEAB05491BBFA6D00014C74D /* MessageUI.framework */,
+				EEAB05471BBFA42F0014C74D /* PebbleVendor.framework */,
+				EEAB05451BBFA4220014C74D /* PebbleKit.framework */,
+				EEAB051E1BBFA1E50014C74D /* PebbleDataTransfer */,
+				EEAB05381BBFA1E50014C74D /* PebbleDataTransferTests */,
+				EEAB051D1BBFA1E50014C74D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEAB051D1BBFA1E50014C74D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEAB051C1BBFA1E50014C74D /* PebbleDataTransfer.app */,
+				EEAB05351BBFA1E50014C74D /* PebbleDataTransferTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEAB051E1BBFA1E50014C74D /* PebbleDataTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				EEAB05231BBFA1E50014C74D /* AppDelegate.h */,
+				EEAB05241BBFA1E50014C74D /* AppDelegate.m */,
+				EEAB05261BBFA1E50014C74D /* ViewController.h */,
+				EEAB05271BBFA1E50014C74D /* ViewController.m */,
+				EEAB05291BBFA1E50014C74D /* Main.storyboard */,
+				EEAB052C1BBFA1E50014C74D /* Images.xcassets */,
+				EEAB052E1BBFA1E50014C74D /* LaunchScreen.xib */,
+				EEAB051F1BBFA1E50014C74D /* Supporting Files */,
+			);
+			path = PebbleDataTransfer;
+			sourceTree = "<group>";
+		};
+		EEAB051F1BBFA1E50014C74D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEAB05201BBFA1E50014C74D /* Info.plist */,
+				EEAB05211BBFA1E50014C74D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEAB05381BBFA1E50014C74D /* PebbleDataTransferTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEAB053B1BBFA1E50014C74D /* PebbleDataTransferTests.m */,
+				EEAB05391BBFA1E50014C74D /* Supporting Files */,
+			);
+			path = PebbleDataTransferTests;
+			sourceTree = "<group>";
+		};
+		EEAB05391BBFA1E50014C74D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEAB053A1BBFA1E50014C74D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEAB051B1BBFA1E50014C74D /* PebbleDataTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAB053F1BBFA1E50014C74D /* Build configuration list for PBXNativeTarget "PebbleDataTransfer" */;
+			buildPhases = (
+				EEAB05181BBFA1E50014C74D /* Sources */,
+				EEAB05191BBFA1E50014C74D /* Frameworks */,
+				EEAB051A1BBFA1E50014C74D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PebbleDataTransfer;
+			productName = PebbleDataTransfer;
+			productReference = EEAB051C1BBFA1E50014C74D /* PebbleDataTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEAB05341BBFA1E50014C74D /* PebbleDataTransferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAB05421BBFA1E50014C74D /* Build configuration list for PBXNativeTarget "PebbleDataTransferTests" */;
+			buildPhases = (
+				EEAB05311BBFA1E50014C74D /* Sources */,
+				EEAB05321BBFA1E50014C74D /* Frameworks */,
+				EEAB05331BBFA1E50014C74D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEAB05371BBFA1E50014C74D /* PBXTargetDependency */,
+			);
+			name = PebbleDataTransferTests;
+			productName = PebbleDataTransferTests;
+			productReference = EEAB05351BBFA1E50014C74D /* PebbleDataTransferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEAB05141BBFA1E50014C74D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Matt Hartenbower";
+				TargetAttributes = {
+					EEAB051B1BBFA1E50014C74D = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = AH8HY7YJ6W;
+					};
+					EEAB05341BBFA1E50014C74D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EEAB051B1BBFA1E50014C74D;
+					};
+				};
+			};
+			buildConfigurationList = EEAB05171BBFA1E50014C74D /* Build configuration list for PBXProject "PebbleDataTransfer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEAB05131BBFA1E50014C74D;
+			productRefGroup = EEAB051D1BBFA1E50014C74D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEAB051B1BBFA1E50014C74D /* PebbleDataTransfer */,
+				EEAB05341BBFA1E50014C74D /* PebbleDataTransferTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEAB051A1BBFA1E50014C74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAB052B1BBFA1E50014C74D /* Main.storyboard in Resources */,
+				EEAB05301BBFA1E50014C74D /* LaunchScreen.xib in Resources */,
+				EEAB052D1BBFA1E50014C74D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAB05331BBFA1E50014C74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEAB05181BBFA1E50014C74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAB05281BBFA1E50014C74D /* ViewController.m in Sources */,
+				EEAB05251BBFA1E50014C74D /* AppDelegate.m in Sources */,
+				EEAB05221BBFA1E50014C74D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAB05311BBFA1E50014C74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAB053C1BBFA1E50014C74D /* PebbleDataTransferTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEAB05371BBFA1E50014C74D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEAB051B1BBFA1E50014C74D /* PebbleDataTransfer */;
+			targetProxy = EEAB05361BBFA1E50014C74D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEAB05291BBFA1E50014C74D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEAB052A1BBFA1E50014C74D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEAB052E1BBFA1E50014C74D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEAB052F1BBFA1E50014C74D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEAB053D1BBFA1E50014C74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEAB053E1BBFA1E50014C74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEAB05401BBFA1E50014C74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/matthartenbower/Downloads/pebble-ios-sdk-master",
+				);
+				INFOPLIST_FILE = PebbleDataTransfer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EEAB05411BBFA1E50014C74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/matthartenbower/Downloads/pebble-ios-sdk-master",
+				);
+				INFOPLIST_FILE = PebbleDataTransfer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EEAB05431BBFA1E50014C74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PebbleDataTransferTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PebbleDataTransfer.app/PebbleDataTransfer";
+			};
+			name = Debug;
+		};
+		EEAB05441BBFA1E50014C74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PebbleDataTransferTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PebbleDataTransfer.app/PebbleDataTransfer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEAB05171BBFA1E50014C74D /* Build configuration list for PBXProject "PebbleDataTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAB053D1BBFA1E50014C74D /* Debug */,
+				EEAB053E1BBFA1E50014C74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAB053F1BBFA1E50014C74D /* Build configuration list for PBXNativeTarget "PebbleDataTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAB05401BBFA1E50014C74D /* Debug */,
+				EEAB05411BBFA1E50014C74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAB05421BBFA1E50014C74D /* Build configuration list for PBXNativeTarget "PebbleDataTransferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAB05431BBFA1E50014C74D /* Debug */,
+				EEAB05441BBFA1E50014C74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEAB05141BBFA1E50014C74D /* Project object */;
+}
