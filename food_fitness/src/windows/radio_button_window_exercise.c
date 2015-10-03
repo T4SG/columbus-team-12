@@ -16,7 +16,7 @@ static uint16_t get_num_rows_callback(MenuLayer *menu_layer, uint16_t section_in
     return RADIO_BUTTON_WINDOW_NUM_ROWS + 1;
 }
 
-static void sendMessage(int x;)
+static void sendMessage(int x)
 {
     app_message_open(APP_MESSAGE_INBOX_SIZE_MINIMUM,APP_MESSAGE_OUTBOX_SIZE_MINIMUM);
     app_message_outbox_begin(&iterator);
