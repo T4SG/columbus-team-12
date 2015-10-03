@@ -33,11 +33,24 @@
     {
         [appDelegate.currentWatch appMessagesAddReceiveUpdateHandler:^BOOL(PBWatch *watch, NSDictionary *update) {
             for(NSString *key in [update allKeys]) {
-                NSLog(@"Hello %@",[update objectForKey:key]);
+                NSLog(@"%@",[update objectForKey:key]);
             }
             return 5;
         }];
     }
+    
+    
+    NSURL *url = [NSURL URLWithString:@"http://httpbin.org/post"];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
+    
+    [request setHTTPMethod:@"POST"];
+    NSString *params = @"param1=1";
+    NSData *data = [params dataUsingEncoding:NSUTF8StringEncoding];
+    [request addValue:@"8bit" forHTTPHeaderField:@"Content-Transfer-Encoding"];
+    [request setHTTPBody:data];
+    [NSURLConnection connectionWithRequest:request delegate:self];
+    
+
     
     
 }
