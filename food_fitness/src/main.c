@@ -4,6 +4,7 @@
 #include "windows/pin_window.h"
 #include "windows/dialog_config_window.h"
 #include "windows/radio_button_food_window.h"
+#include "windows/radio_button_class_window.h"
 #include "windows/checkbox_window.h"
 
 #define NUM_WINDOWS 10
@@ -22,6 +23,9 @@ static void draw_row_callback(GContext *ctx, Layer *cell_layer, MenuIndex *cell_
       break;
     case 1:
       menu_cell_basic_draw(ctx, cell_layer, "Food", NULL, NULL);
+     break;
+    case 2:
+          menu_cell_basic_draw(ctx, cell_layer, "Class", NULL, NULL);
       break;
     default:
       break;
@@ -45,6 +49,9 @@ static void select_callback(struct MenuLayer *menu_layer, MenuIndex *cell_index,
     case 1:
       radio_button_window_food_push();
       break;
+    case 2:
+          radio_button_class_window_push();
+        break;
     default:
       break;
   }

@@ -2,7 +2,7 @@
  * Example implementation of the radio button list UI pattern.
  */
 
-#include "radio_button_food_window.h"
+#include "radio_button_class_window.h"
 
 static Window *s_main_window;
 static MenuLayer *s_menu_layer;
@@ -23,16 +23,16 @@ static void draw_row_callback(GContext *ctx, Layer *cell_layer, MenuIndex *cell_
     static char s_buff[16];
     switch(cell_index->row) {
     case 0:
-      snprintf(s_buff, sizeof(s_buff), "I understand completely");
+      snprintf(s_buff, sizeof(s_buff), "Understood");
       break;
     case 1:
-      snprintf(s_buff, sizeof(s_buff), "I understand some of this");
+      snprintf(s_buff, sizeof(s_buff), "Some what");
       break;
     case 2:
-      snprintf(s_buff, sizeof(s_buff), "I could use more practice");
+      snprintf(s_buff, sizeof(s_buff), "Need practice");
       break;
     case 3:
-      snprintf(s_buff, sizeof(s_buff), "I really need more help");
+      snprintf(s_buff, sizeof(s_buff), "Need help!");
       break;
     default:
       break;
