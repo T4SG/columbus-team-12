@@ -1,0 +1,806 @@
+<zuiprezi>
+  <version>7</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-120520.16280280682" y="-78442.78708648823" width="241040.32560561365" height="156885.57417297643"/>
+      <aspectratio>off</aspectratio>
+      <languages>
+        <language>en</language>
+      </languages>
+      <mode type="normal"/>
+    </settings>
+    <object id="3_61555489" type="image" x="-39492.35103082056" y="-8269.69903408073" r="0" s="213.85795409046293">
+      <source w="208" h="208">3830140517<url>3830140517.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F5%2F1%2F3%2F1014eb6e022220e41e78139c190bf660c57c7.png</sourceUrl>
+    <resource><id>3830140517</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/1/3/1014eb6e022220e41e78139c190bf660c57c7.png</url></resource></object>
+    <object id="57_30863873" type="image" x="-4936.088630441148" y="5552.228593309891" r="0" s="30.01638288582729">
+      <source w="1658" h="1264" bt="412.7" bl="777.05">2291757925<url>2291757925.swf</url></source>
+      <sourceUrl>road_final.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    <resource><id>2291757925</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/3/8/3b81860284f409bf294b1371914968873d90c.swf</url></resource></object>
+    <object id="13_30863873" type="shape" x="-119065.05730251547" y="-77801.27467717249" r="-1.4033418597069758e-14" s="2.866855627417306" class="poly3">
+      <geom type="poly">
+        <p x="-20" y="-20"/>
+        <p x="20" y="-20"/>
+        <p x="20" y="20"/>
+        <p x="-20" y="20"/>
+        <t>0</t>
+        <r>0</r>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="14_30863873" type="shape" x="-120358.6643004652" y="78285.45404965554" r="-1.4033418597069758e-14" s="7.866651841633088" class="poly3">
+      <geom type="poly">
+        <p x="-20" y="-20"/>
+        <p x="20" y="-20"/>
+        <p x="20" y="20"/>
+        <p x="-20" y="20"/>
+        <t>0</t>
+        <r>0</r>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="16_30863873" type="shape" x="120207.62458510583" y="-78134.4143342962" r="-1.4033418597069772e-14" s="15.418637609600848" class="poly3">
+      <geom type="poly">
+        <p x="-20" y="-20"/>
+        <p x="20" y="-20"/>
+        <p x="20" y="20"/>
+        <p x="-20" y="20"/>
+        <t>0</t>
+        <r>0</r>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="17_30863873" type="shape" x="118914.01758715618" y="77952.31439253181" r="-1.4033418597069766e-14" s="11.01331257828632" class="poly3">
+      <geom type="poly">
+        <p x="-20" y="-20"/>
+        <p x="20" y="-20"/>
+        <p x="20" y="20"/>
+        <p x="-20" y="20"/>
+        <t>0</t>
+        <r>0</r>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="58_30863873" type="persistentgroup" x="0" y="-1.4551915228366852e-11" r="0" s="325.3344926516583">
+      <m o="57_30863873"/>
+      <m o="13_30863873"/>
+      <m o="14_30863873"/>
+      <m o="16_30863873"/>
+      <m o="17_30863873"/>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="1" type="button" x="1359.7138626715412" y="2090.1151367315297" r="0" s="109.23044803233728" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1197.448853773701</w>
+        <h>673.5649802477071</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="OVERVIEW"/>
+      </layout>
+    </object>
+    <object id="25_24309637" type="text" x="14896.85" y="-27729" r="0" s="248.0500940210351" class="head">
+      <height>57.6</height>
+      <width>490.65722573217215</width>
+      <p align="center">
+        <text><![CDATA[]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[Team 12: Pebbles to MVPs]]></text>
+      </p>
+    </object>
+    <object id="1_24309637" type="button" x="-29997.66899160938" y="20485.457327328975" r="0" s="4.949103921308571" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="2_24309637" type="image" x="-30003.06334019863" y="21867.074832084152" r="0" s="8.90698144876133">
+      <source w="102" h="133">1818630121<url>1818630121.swf</url></source>
+      <sourceUrl>sign.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    <resource><id>1818630121</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/c/a/21725b0ff88de75be9bbb9912e0fe667cfc06.swf</url></resource></object>
+    <object id="3_24309637" type="text" x="-29997.979183731622" y="20348.501836761687" r="0" s="10.910659590949594" class="head">
+      <style color="3355443"/>
+      <style color="3355443"/>
+      <height>57.6</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[What does success mean to you?]]></text>
+      </p>
+      <layout>
+        <layout-element role="title"/>
+      </layout>
+    </object>
+    <object id="5_24309637" type="button" x="1599.33039055496" y="-14747.530143827287" r="0" s="6.398230103792332" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="6_24309637" type="image" x="1788.499219517815" y="-13579.213241868074" r="0" s="6.432889034535195">
+      <source w="151" h="235">606583967<url>606583967.swf</url></source>
+      <sourceUrl>flag_triangel_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    <resource><id>606583967</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/9/8/aa87837cbc9ae39cac839d102e1626d6e42be.swf</url></resource></object>
+    <object id="13_24309637" type="text" x="1619.699032237731" y="-16032.40486142166" r="0" s="25.114314562244875" class="strong">
+      <height>27.59765625</height>
+      <width>123.127290309048</width>
+      <p align="center">
+        <text><![CDATA[GOAL!]]></text>
+      </p>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+      <layout>
+        <layout-element role="title"/>
+      </layout>
+    </object>
+    <object id="14_24309637" type="text" x="1932.2" y="-15252.8" r="0" s="10.853324024148508" class="body">
+      <height>27.59765625</height>
+      <width>441.8169921337759</width>
+      <p>
+        <text><![CDATA[SUCCESS IS EARNED, NOT GIVEN!]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="15_24309637" type="button" x="1755.024818497223" y="-14030.135523266355" r="0" s="0.3382014516006812" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1034.0931615460852</w>
+        <h>600</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="16_24309637" type="text" x="1751.2021530786888" y="-14029.947512988238" r="0" s="0.7294125484773333" class="body">
+      <height>165.5859375</height>
+      <width>278.203125</width>
+      <p>
+        <text><![CDATA[Thank you JPMorgan Chase & Co., the Lebron James Family Foundation, and all the volunteers who helped with the Code For Good event.]]></text>
+      </p>
+      <meta>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="0_30863873" type="button" x="-17477.86254251065" y="18984.95084579912" r="-6.2907495119565215" s="6.558148265578143" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>808.9</w>
+        <h>461.0310880829016</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="3" type="image" x="-16741.254862793863" y="18921.035723468995" r="-6.290749511956525" s="3.9773884554305505">
+      <source w="596" h="459">3830085947<url>3830085947.png</url></source>
+      <sourceUrl>battery-09bcc8c6f347f3cea3af9909efecef28.png</sourceUrl>
+    <resource><id>3830085947</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/d/b/0649a43e574e27bc0c07d7856c063836942e3.png</url></resource></object>
+    <object id="1_30863873" type="text" x="-17594.415232572635" y="17846.00863485389" r="-6.290749511956512" s="10.062401580663964" class="strong">
+      <height>27.59765625</height>
+      <width>409.346143553921</width>
+      <p align="center">
+        <text><![CDATA[Challenges]]></text>
+      </p>
+      <layout>
+        <layout-element role="title"/>
+      </layout>
+    </object>
+    <object id="4_30863873" type="button" x="5885.400000000011" y="-5387.300000000004" r="8.859283931135653" s="6.558148265578147" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>808.9</w>
+        <h>461.0310880829016</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="5_30863873" type="text" x="6061.499689183599" y="-6518.483531403746" r="8.859283931135655" s="10.062401580663964" class="strong">
+      <height>27.59765625</height>
+      <width>409.346143553921</width>
+      <p align="center">
+        <text><![CDATA[Key advantages to the Pebble]]></text>
+      </p>
+      <layout>
+        <layout-element role="title"/>
+      </layout>
+    </object>
+    <object id="0_61555489" type="image" x="6836.313852398922" y="-4890.6426028933865" r="8.859283931135652" s="5.949432240399643">
+      <source w="478" h="382">3830112572<url>3830112572.png</url></source>
+      <sourceUrl>waterresistance-30m-0e270b28a68feac7557ee589a8fe835e.png</sourceUrl>
+    <resource><id>3830112572</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/7/5/f9398d7582a7931e829c8217f754e1360822e.png</url></resource></object>
+    <object id="6_30863873" type="text" x="5476.936455131729" y="-5435.942144133759" r="8.859283931135671" s="6.469937287894037" class="body">
+      <height>248.37890625</height>
+      <width>642.4221214502834</width>
+      <p>
+        <text><![CDATA[- Wifi/bluetooth independent.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- Water proof up to 30 meters.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- 7 day battery life.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- non-distracting.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- Another promise with Lebron.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- Variety of Pebble apps does not]]></text>
+      </p>
+      <p>
+        <text><![CDATA[stop here.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="8_30863873" type="button" x="-6942.619314846763" y="12494.628700115907" r="4.852823002243012" s="6.558148265578144" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>808.9</w>
+        <h>461.0310880829016</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="0" type="image" x="-5961.593748781688" y="12547.275739580084" r="4.8528230022430145" s="3.3779988713977187">
+      <source w="766" h="427">3830053637<url>3830053637.png</url></source>
+      <sourceUrl>hero-bdce3c07b84a79e40afc4278e3ca617c.png</sourceUrl>
+    <resource><id>3830053637</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/f/b/a88f22bde91119b7c31e323a45c40f089cff0.png</url></resource></object>
+    <object id="9_30863873" type="text" x="-6845.984602389438" y="11353.905677380808" r="4.852823002243016" s="10.06240158066396" class="strong">
+      <height>27.59765625</height>
+      <width>409.346143553921</width>
+      <p align="center">
+        <text><![CDATA[Solution]]></text>
+      </p>
+      <layout>
+        <layout-element role="title"/>
+      </layout>
+    </object>
+    <object id="19_30863873" type="button" x="-1721.1067406443572" y="2319.952661622492" r="-6.294085980472371" s="6.558148265578145" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>808.9</w>
+        <h>461.0310880829016</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>journey-to-the-top3</parentTemplate>
+      </meta>
+    </object>
+    <object id="1_61555489" type="image" x="-91.19673742653941" y="2277.8059162410636" r="-6.294085980472372" s="3.2987943103485042">
+      <source w="493" h="944">3830135519<url>3830135519.png</url></source>
+      <sourceUrl>AIPN_lebron.png</sourceUrl>
+    <resource><id>3830135519</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/3/3/6ff92614ccfd392b8519f9417096debce9f60.png</url></resource></object>
+    <object id="4_61555489" type="image" x="-868.0169435850486" y="573.061630475233" r="-6.294085980472371" s="2.438487263284683">
+      <source w="208" h="208">3830145212<url>3830145212.png</url></source>
+      <sourceUrl>LJFF-logo.png</sourceUrl>
+    <resource><id>3830145212</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/6/8/9a695393151209ffc2a2bb0bf63a3bc878d38.png</url></resource></object>
+    <object id="5_61555489" type="image" x="577.4824317436027" y="2204.755656466723" r="53.347537574443145" s="0.19435897376354577">
+      <source w="252" h="450">3830146721<url>3830146721.png</url></source>
+      <sourceUrl>time-red-front.png</sourceUrl>
+    <resource><id>3830146721</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/a/1/935f581e673f7db7f423da1b3201020182151.png</url></resource></object>
+    <object id="20_30863873" type="text" x="-2005.5990281068503" y="1045.5853349591812" r="-6.294085980472363" s="10.06240158066395" class="strong">
+      <height>27.59765625</height>
+      <width>409.346143553921</width>
+      <p align="center">
+        <text><![CDATA[How It Helps]]></text>
+      </p>
+      <layout>
+        <layout-element role="title"/>
+      </layout>
+    </object>
+    <object id="21_30863873" type="text" x="-2014.5880787644371" y="2282.281477327968" r="-6.2940859804723654" s="6.469937287894028" class="body">
+      <height>193.18359375</height>
+      <width>642.4221214502834</width>
+      <p>
+        <text><![CDATA[- Constant contact "Lebron on your wrist"]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- Student life monitoring]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- Communication]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- Motivation]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- Personalization]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- Data tracking]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="4" type="text" x="-15504.710434360231" y="18522.710786734744" r="-6.290749511956524" s="6.469937287894029" class="strong">
+      <height>55.1953125</height>
+      <width>155.35546875</width>
+      <p align="right">
+        <text><![CDATA[we have the solution!]]></text>
+      </p>
+    </object>
+    <object id="2_61555489" type="text" x="-9606.6" y="12294.5" r="4.852823002243012" s="10.06240158066396" class="body">
+      <height>82.79296875</height>
+      <width>552</width>
+      <p indent="8">
+        <text><![CDATA[Give students a simple, interactive, and personalized device.]]></text>
+      </p>
+    </object>
+    <object id="6_61555489" type="text" x="-19011" y="19187.699999999997" r="-6.290749511956521" s="9.47263518320565" class="body">
+      <height>82.79296875</height>
+      <width>-168.64453125</width>
+      <p>
+        <text><![CDATA[- Attendance]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- Communication]]></text>
+      </p>
+      <p>
+        <text><![CDATA[- Motivation ]]></text>
+      </p>
+    </object>
+    <object id="7_61555489" type="button" x="15503.92682991548" y="20536.864333424055" r="8.859283931135648" s="5.63890227352563" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>894.3125</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="8_61555489" type="button" x="12123.140992158986" y="12077.844018324868" r="8.85928393113565" s="5.3400870473186695" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>954.00341796875</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="9_61555489" type="button" x="7830.900000000005" y="3958.549999999989" r="8.859283931135646" s="6.87126058599178" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>800</w>
+        <h>441.3531541824341</h>
+      </size>
+    </object>
+    <object id="12_61555489" type="video" x="7830.650000000004" y="3958.649999999991" r="8.85928393113565" s="14.70533053409344" onFocus="start" onLeave="pause">
+      <source>3830336387<url>3830336387.mp4</url></source>
+    <resource><id>3830336387</id><url>http://0103.static.prezi.com.s3.amazonaws.com/converted/3/7/b/d070826ed869962f4c9686472fb54ace327f4.mp4</url></resource></object>
+    <object id="13_61555489" type="video" x="11997.25" y="12256.45" r="8.859283931135655" s="15.53479868310886" onFocus="start" onLeave="pause">
+      <source>3830337284<url>3830337284.mp4</url></source>
+    <resource><id>3830337284</id><url>http://0103.static.prezi.com.s3.amazonaws.com/converted/3/8/a/799d305bb462ac672798e863af549e8bfaa5d.mp4</url></resource></object>
+    <object id="14_61555489" type="video" x="15296.850000000004" y="20602.949999999993" r="8.85928393113566" s="16.40407934116548" onFocus="start" onLeave="pause">
+      <source>3830338475<url>3830338475.mp4</url></source>
+    <resource><id>3830338475</id><url>http://0103.static.prezi.com.s3.amazonaws.com/converted/7/5/a/f8b47a66c404b8cc6129ddfe80990ae80cb2b.mp4</url></resource></object>
+  </zui-table>
+  <background>
+    <layer depth="0.007670728812174585" fadescale="0.5420398521503113">
+      <object id="background2214090295" type="image" x="-1323.9371949203262" y="4597.902421977155" r="0" s="30.06098047471639">
+        <source w="3350" h="2051">2214090295<url>2214090295.png</url></source>
+        <sourceUrl>mountain.png</sourceUrl>
+      <resource><id>2214090295</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/b/b/32206ab4b1de700f1bc90c6eacd9f6ba9cccc.png</url></resource></object>
+    </layer>
+  </background>
+  <path>
+    <s>
+      <eagle o="1"/>
+    </s>
+    <s>
+      <eagle o="1_24309637"/>
+    </s>
+    <s>
+      <eagle o="0_30863873"/>
+    </s>
+    <s>
+      <eagle o="8_30863873"/>
+    </s>
+    <s>
+      <eagle o="19_30863873"/>
+    </s>
+    <s>
+      <eagle o="7_61555489"/>
+    </s>
+    <s>
+      <eagle o="8_61555489"/>
+    </s>
+    <s>
+      <eagle o="9_61555489"/>
+    </s>
+    <s>
+      <eagle o="4_30863873"/>
+    </s>
+    <s>
+      <eagle o="1"/>
+    </s>
+    <s>
+      <eagle o="5_24309637"/>
+    </s>
+    <s>
+      <eagle o="15_24309637"/>
+    </s>
+    <s>
+      <eagle o="1"/>
+    </s>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('Tinos-Regular.keg');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Tinos;
+}
+
+@font-face
+{
+	src: url('Aleo-Regular.keg');
+	fontFamily: head;
+	font-class: head;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Aleo;
+}
+
+@font-face
+{
+	src: url('Tinos-BoldItalic.keg');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Tinos;
+}
+
+@font-face
+{
+	src: url('Tinos-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: Tinos;
+}
+
+@font-face
+{
+	src: url('Tinos-Bold.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: Tinos;
+}
+
+@font-face
+{
+	src: url('Aleo-Bold.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: Aleo;
+}
+
+@font-face
+{
+	src: url('Aleo-BoldItalic.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: Aleo;
+}
+
+@font-face
+{
+	src: url('Aleo-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: Aleo;
+}
+
+.line1
+{
+	color: #4b4d4f;
+	gradEndColor: #4b4d4f;
+	gradStartColor: #4b4d4f;
+}
+
+.line2
+{
+	color: #5a7088;
+	gradEndColor: #5a7088;
+	gradStartColor: #5a7088;
+}
+
+.line3
+{
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+.line4
+{
+	color: #f51315;
+	gradEndColor: #f51315;
+	gradStartColor: #f51315;
+}
+
+.line5
+{
+	color: #f79a3c;
+	gradEndColor: #f79a3c;
+	gradStartColor: #f79a3c;
+}
+
+.poly1
+{
+	color: #a2bad5;
+	gradEndColor: #4b4d4f;
+	gradStartColor: #4b4d4f;
+}
+
+.poly2
+{
+	color: #a2bad5;
+	gradEndColor: #5a7088;
+	gradStartColor: #5a7088;
+}
+
+.poly3
+{
+	color: #a2bad5;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+.poly4
+{
+	color: #a2bad5;
+	gradEndColor: #f51315;
+	gradStartColor: #f51315;
+}
+
+.poly5
+{
+	color: #a2bad5;
+	gradEndColor: #f79a3c;
+	gradStartColor: #f79a3c;
+}
+
+Background
+{
+	gradEnd: #a2bad5;
+	gradStart: #a2bad5;
+}
+
+Grid
+{
+	color: #7a8ca0;
+}
+
+ZArrow
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+}
+
+ZCircle
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	color: #000;
+}
+
+ZFrame.bracket
+{
+	gradEndAlpha: 1;
+	gradEndColor: #fff;
+	gradStartAlpha: 1;
+	gradStartColor: #fff;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.circle
+{
+	gradEndAlpha: 1;
+	gradEndColor: #fff;
+	gradStartAlpha: 1;
+	gradStartColor: #fff;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.roundrect
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 0.8;
+	gradEndColor: #fff;
+	gradStartAlpha: 0.8;
+	gradStartColor: #fff;
+	padding: 1.03;
+	radius: 20;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.15;
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #333;
+	fontFamily: body;
+}
+
+ZLabel.body-background
+{
+	background-alpha: 0.9;
+	background-color: #a2bad5;
+	background-padding: 5;
+}
+
+ZLabel.head
+{
+	color: #333;
+	fontFamily: head;
+}
+
+ZLabel.head-background
+{
+	background-alpha: 0.8;
+	background-color: #fff;
+	background-padding: 5;
+}
+
+ZLabel.strong
+{
+	color: #424242;
+	fontFamily: strong;
+}
+
+ZLabel.strong-background
+{
+	background-alpha: 0.7;
+	background-color: #f51315;
+	background-padding: 5;
+}
+
+ZLine
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	color: #333;
+	lockTintAlpha: 0;
+}
+
+ZMarker
+{
+	alpha: 0.75;
+	color: #f51315;
+}
+
+ZPath
+{
+	alpha: 1;
+	color: #40abe6;
+	textColor: #fff;
+	thickness: 3;
+}
+
+ZPath Ball.base
+{
+	alpha: 1;
+	fillColor: #40abe6;
+	radius: 12;
+}
+
+ZPath Ball.mid
+{
+	alpha: .5;
+	fillColor: #40abe6;
+	radius: 8;
+}
+
+ZPoly
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+]]></style>
+  <hash>1e371998</hash>
+<sync><oid>4lwb6k6zzvm7</oid><title>what-is-success-to-you</title><hash>1e371998</hash></sync><config>K9B6JrEURVYXPRf/f5ozgg2XPIX5vlUNsyyA1JaXTd2s7cCAf6sCMs1LCWLhJtIRRso4Cq1qcbc9lHqHYA52nYN1RVCet7kXkYwoqdAn55urAGLFbqsCTHTVe81wmBuFkmRuDom00Xg0EU0P7uDiB2ij3MD3fZp4leD3iK76Vr2lDK49fVytna46lg+I7fGZ1xWtag+tFHS+BCjJZ1T+GqRDPbESVJPu5Z3E7IfsC79KmYwDREw5SShuXoEOBLbewLLdn0E+sfcWmDyDNhlj+uDNpjqai97pk/7Nf1utOnsCDAFumWac4Ud6oa70zKOERia20fU8YpCi0rTacCpq5A==</config></zuiprezi>
